@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pro</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+
+</head>
+<body>
+
+	<section class="container">
+		<header class="lr-padding head-top">
+
+			<div class="logo">
+				<ion-icon name="menu-outline" class="mob-menu" onclick="openMenu()" ></ion-icon>
+				<p class="logo-text">iNSANExFOOD</p>
+			</div>
+
+			<div class="navbar" id="sidebar">
+				<ul>
+
+					<li><a href="">Home</a></li>
+					<li class="about_a"><a href="">About Us <ion-icon name="chevron-down-outline" class="more"></ion-icon></a>
+						<div class="drop-container">
+							<a href="">Info.</a>
+							<a href="">Claims</a>
+							<a href="">Contact</a>
+						</div>
+					</li>
+					<li><a href="">Plans</a></li>
+					<li><a href="">Services</a></li>
+					<li class="support_a"><a href="">Support <ion-icon name="chevron-down-outline" class="more"></ion-icon></a>
+						<div class="drop-container_a">
+							<a href="">Info.</a>
+							<a href="">Claims</a>
+							<a href="">Contact</a>
+						</div>
+					</li>
+				</ul>
+
+				<ion-icon name="close-outline" class="close-menu" onclick="closeMenu()"></ion-icon>
+			</div>
+	</header>
+	</section>
+
+	<section class="main"></section>
+
+<script type="text/javascript">
+	
+	function openMenu(){
+		document.getElementById('sidebar').style.display = 'block';
+	}
+
+	function closeMenu(){
+		document.getElementById('sidebar').style.display = 'none';
+	}
+
+</script>
+
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
