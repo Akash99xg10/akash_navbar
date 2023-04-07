@@ -63,7 +63,7 @@ body{
 }
 
 .navbar{
-	transition: 0.3s;
+	transition: all 0.5s ease-out;
 }
 
 ul{
@@ -174,15 +174,15 @@ ul li a:hover{
 		width: 60%;
 		left: 0;
 		top: 0;
-		background-color: #4B4849;
 		padding-left: 20px;
 		padding-top: 20px;
 		padding-bottom: 20px;
 		margin-top: 0;
 		transition: 0.3s;
 		height: 100vh;
-		background-color: rgba(75, 72, 73, 0.2);
+		background-color: rgba(255, 255, 255, 0.1);
 		backdrop-filter: blur(5px);
+		transition: all 0.5s ease-out;
 	}
 
 	.navbar ul li{
